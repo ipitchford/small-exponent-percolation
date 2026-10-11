@@ -1,0 +1,4 @@
+Finite diagnostics: Python 3.13, standard library only. Explicit exceptions remain active under Python -O.
+No network or numerical third-party library is needed for diagnostics.
+Manuscript: pdfLaTeX with article, fontenc, lmodern, inputenc, geometry, amsmath, amssymb, amsthm, mathtools, microtype, enumitem, hyperref. Run twice for references.
+Manifest, clean-extraction replay, rendered-PDF QA, CI and public provider readback are separate publication operations.

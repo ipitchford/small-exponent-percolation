@@ -1,0 +1,13 @@
+name: Package diagnostics
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  diagnostics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python code/verify_math.py
+      - run: python -O code/verify_math.py
+      - run: python code/check_manifest.py

@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0-candidate",
+  "assurance": "Unrefereed written-proof candidate; AI-assisted internal scrutiny, not formal verification",
+  "claims": [
+    {"id":"main","location":"thm:main","statement":"For linear undirected bond probabilities C |x-y|^(-1-sigma) on Z, p_c = 1 + zeta(2+2 sigma)/(2 zeta(1+sigma)^2) + O(sigma^3) as sigma decreases to zero."},
+    {"id":"criterion","location":"thm:criterion","statement":"For even probability kernels on Z with zero diagonal, positive nearest-neighbour weights, Fourier transform less than one off zero, nonempty admissible percolating set, and uniform bounds max D=O(epsilon), J_2,3=O(epsilon^2), J_3,2=O(epsilon^3), p_c=1+sum D^2+O(epsilon^3)."},
+    {"id":"additions","location":"thm:additions","statement":"For nonnegative summable additions b_n of uniformly bounded total mass, the normalized power-law kernel has quadratic correction [zeta(2)+2 sum b_n/n+sum b_n^2]/2, with uniform cubic remainder."},
+    {"id":"mixtures","location":"thm:mixtures","statement":"For probability mixtures of normalized kernels with exponents c s and c in a fixed positive compact interval, the quadratic coefficient is (pi^2/12)(integral c d nu)^2, uniformly over mixing measures."}
+  ],
+  "excluded": ["third-order coefficient", "explicit useful finite-sigma error constant", "exponential bond law", "oriented percolation", "signed additions", "unbounded exponent mixtures", "formal verification", "independent human peer review", "four-star assessment"]
+}

@@ -1,0 +1,13 @@
+{
+  "title":"First correction to the critical mean degree in extreme long-range percolation",
+  "creators":[{"name":"Anonymous"}],
+  "upload_type":"publication",
+  "publication_type":"preprint",
+  "publication_date":"2026-10-11",
+  "version":"1.1.0-candidate",
+  "license":"cc-zero",
+  "description":"Unrefereed analytic candidate for the first correction to the critical expected degree in one-dimensional extreme long-range percolation with linear bond probabilities. Includes a sufficient kernel criterion, nonnegative summable additions and compact exponent mixtures. Internal AI-assisted scrutiny and finite algebraic diagnostics are not formal verification or independent human peer review. Component-specific rights are specified in LICENSES.md; code is MIT and historical third-party material is NOASSERTION.",
+  "keywords":["long-range percolation","critical threshold","lace expansion","small exponent","probability"],
+  "related_identifiers":[{"identifier":"https://github.com/ipitchford/small-exponent-percolation","relation":"isSupplementTo","scheme":"url"}],
+  "references":["Heydenreich, van der Hofstad and Sakai (2008). doi:10.1007/s10955-008-9580-5","van der Hofstad and Sakai (2005). doi:10.1007/s00440-004-0405-4","Borgs et al. (2005). doi:10.1214/009117905000000260"]
+}

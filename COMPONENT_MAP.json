@@ -1,0 +1,6 @@
+{
+  "original_research_and_documentation":{"paths":["paper.tex","paper.pdf","README.md","AI_INDEX.md","CLAIMS.json","ASSURANCE.md","STATUS.md","PROVENANCE.md","REVIEW_RESPONSE.md","CITATION_AUDIT.md","SOURCES.md"],"license":"CC0-1.0"},
+  "diagnostics":{"paths":["code/verify_math.py"],"license":"MIT","scope":"Finite algebraic checks; not an analytic proof checker"},
+  "historical_evidence":{"paths":["historical/outcome.json","historical/ref-assessment.md"],"license":"NOASSERTION","scope":"Unchanged supplied historical research records, retaining original status and assessment; no relicensing assertion"},
+  "external_sources":{"paths":[],"scope":"Bibliographic links only; external papers and large caches not redistributed"}
+}

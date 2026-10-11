@@ -1,0 +1,41 @@
+{
+  "status": "RESOLVED_BELOW_TARGET",
+  "summary": "Full positive resolution of the frozen small-exponent percolation correction: p_c=1+zeta(2+2 sigma)/(2 zeta(1+sigma)^2)+O(sigma^3), hence (p_c-1)/sigma^2 tends to pi^2/12 for all sufficiently small positive real sigma. Fresh validity and bounded contribution reviews passed; achieved contribution assessed provisionally at2-star, below target.",
+  "resolution": "full",
+  "resolution_branch": "Positive: prove the frozen uniform small-sigma limit pi^2/12, with a stronger O(sigma^3) remainder.",
+  "novelty": "supported_within_search",
+  "verification": "passed",
+  "review": "passed",
+  "quality": "below_target",
+  "package": "ready",
+  "reopening_condition": "Only material new mathematical or source evidence changing correctness, novelty or demonstrated contribution; do not reopen merely to seek a higher model rating. Any broader kernel theorem is a distinct claim with shared prior costs retained.",
+  "evidence": [
+    "paper.pdf",
+    "paper.tex",
+    "claims.md",
+    "prior-art.md",
+    "search-log.json",
+    "verification.json",
+    "reviews/validity.md",
+    "reviews/contribution.md",
+    "ref-assessment.md"
+  ],
+  "limitations": [
+    "AI reviews only; no human peer review or formal verification.",
+    "Novelty supported only within the recorded bounded search.",
+    "No explicit useful moderate-sigma error constant, third-order coefficient, oriented result, or exponential-edge-law result.",
+    "The leading limit and correction mechanism are established machinery; the uniform remainder is a specialist refinement.",
+    "Local iCloud writes are not evidence of upload or independent backup."
+  ],
+  "tool_versions": {
+    "pdf_export": "pdfTeX1.40.29/TeXLive2026",
+    "packager": "installed standard-library bundle.py, SHA256 459d99ff7851d2eaaa745028b89a5a39dc00c41076a829f3c9bc5050382756d9",
+    "native_review_models": "Inherited selected model; exact serving identifiers unavailable; no overrides."
+  },
+  "publication": "not published or submitted",
+  "prospective_quality_assessment": "2-star, fresh contribution reviewer and coordinator",
+  "review_findings": {
+    "validity": "pass, no required scientific changes",
+    "contribution": "pass for bounded claims, prospective2-star below target"
+  }
+}

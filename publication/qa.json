@@ -1,0 +1,7 @@
+{
+  "pdfSha256": "e098ddf7645909fb7981d2f8ba34c07a7ed39d6d5cd98708a79886302d066c27",
+  "pages": 13,
+  "text": "pdf_tex_preflight passed: zero raw TeX",
+  "visual": "All 13 pages inspected in four rendered contact sheets; centred title, readable equations, no clipping or overlap; no unresolved references. Harmless shell-escape-disabled warning.",
+  "scope": "Presentation QA only."
+}

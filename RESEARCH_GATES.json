@@ -1,0 +1,22 @@
+{
+ "schemaVersion":"1.0",
+ "version":"1.1.0-candidate",
+ "recordBoundary":"Publication revision and bounded extension work on 2026-10-11; historical assessment remains unchanged.",
+ "contributionMap":[
+  {"claim":"One-dimensional small-exponent correction","unit":"statement","paperLocation":"thm:main","closestPriorWork":"Hofstad-Sakai spread-out high-dimensional correction, a different parameter regime","verdict":"new-in-bounded-search","searches":[{"date":"2026-10-11","query":"percolation critical point expansion general kernel D convolution first correction small triangle long range sigma zero"}]},
+  {"claim":"Power-law kernel and linear independent bond model","unit":"object","paperLocation":"eq:kernel","closestPriorWork":"Classical long-range percolation and Amit 2026","verdict":"known-cited","searches":[{"date":"2026-10-11","query":"Source comparison of supplied Amit and HHS model definitions"}]},
+  {"claim":"First lace coefficient and infrared machinery","unit":"method","paperLocation":"Sections on diagrams and first coefficient","closestPriorWork":"HHS2008 general infrared theorem; HS2005 Section 3.2 event bounds; BCHSS2005 expansion","verdict":"known-cited","searches":[{"date":"2026-10-11","query":"Primary-source HHS Assumption 2.1 and HS equations 3.45 through 3.55 comparison"}]},
+  {"claim":"Kernel criterion and two applications","unit":"statement","paperLocation":"thm:criterion, thm:additions, thm:mixtures","closestPriorWork":"Inherited general-kernel infrared and lace event estimates; new sufficient scaling extraction and applications","verdict":"partially-known-cited","searches":[{"date":"2026-10-11","query":"percolation critical point expansion general kernel D convolution first correction small triangle long range sigma zero"}]}
+ ],
+ "sourcesReadInFull":[
+  {"citation":"HHS2008 arXiv:0712.0312v2","date":"2026-10-11","readWhat":"Relevant model assumptions, Assumption 2.1, Theorem 2.3 and critical-point estimate; not a complete-paper rereading","evidenceLocator":"https://arxiv.org/pdf/0712.0312","usedFor":"General-kernel infrared input"},
+  {"citation":"HS2005 arXiv:math/0402050v2","date":"2026-10-11","readWhat":"Relevant theorem regime and Section 3.2 coefficient event bounds; not a complete-paper rereading","evidenceLocator":"https://arxiv.org/pdf/math/0402050","usedFor":"Inherited decomposition and regime comparison"}
+ ],
+ "limitationTriage":[
+  {"limitation":"Supplied review editorial and attribution obligations","closingQuestion":"Can the proof dependencies and restrictions be made explicit?","triedOrSearched":"Added first-coefficient preview, terminal restriction explanation, literature distinction and archive boundary","estimatedCost":"Bounded revision","cheap":true,"decision":"CLOSED"},
+  {"limitation":"Broader kernel applicability","closingQuestion":"Can existing estimates yield a useful criterion and examples?","triedOrSearched":"Prior-art-first general criterion and positive-addition/compact-mixture proofs","estimatedCost":"Bounded analytic extension","cheap":true,"decision":"CLOSED"},
+  {"limitation":"Explicit finite-parameter constants and cubic coefficient","closingQuestion":"Do current asymptotic estimates determine these?","triedOrSearched":"Inspected proof error budget","estimatedCost":"New quantitative research","cheap":false,"decision":"OPEN","reasonOpen":"Current proof does not evaluate these quantities."},
+  {"limitation":"Four-star significance and independent assurance","closingQuestion":"Do extensions or diagnostics establish these?","triedOrSearched":"Compared historical assessment and contribution scale","estimatedCost":"Separate substantive research and review","cheap":false,"decision":"OPEN","reasonOpen":"No four-star claim, formal verification or independent human peer review is supported."}
+ ],
+ "extensionScout":{"by":"Codex internal research","date":"2026-10-11","proposals":["General sufficient kernel criterion","Summable nonnegative additions","Compact exponent mixtures"],"actions":["Written proofs integrated; finite diagnostics are not proofs; conservative assessment retained"]}
+}
